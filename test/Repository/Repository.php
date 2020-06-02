@@ -8,8 +8,4 @@ abstract class RepositoryInterface
        $this->user = $user;
    }
 
-   public function getUserById($id)
-   {
-       return $this->userModel->findOrFail($id);
-   }
 }

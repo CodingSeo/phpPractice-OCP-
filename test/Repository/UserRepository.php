@@ -1,7 +1,8 @@
 <?php
 class UserRepository implements RespositoryInterface
 {
-   protected $userModel;
+   //MODEL 사용
+    protected $userModel;
 
    public function __construct(User $user)
    {
