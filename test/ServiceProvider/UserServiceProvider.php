@@ -1,7 +1,7 @@
 <?php
 class TestServiceProvider extends ServiceProvider
 {
-    서비스 컨테이너에서 많은 서비스 객체들을
+    // 서비스 컨테이너에서 많은 서비스 객체들을
     public $bindings = [
         User::class => UserIm::class,
         Repository::class => UserRepository::class,
@@ -29,6 +29,6 @@ class TestServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        $this->app->macro('')
+        $this->app->macro('transform','XML');
     }
 }
