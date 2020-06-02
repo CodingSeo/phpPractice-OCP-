@@ -1,11 +1,11 @@
 <?php
 abstract class RepositoryInterface
 {
-   protected $Repository;
+   protected $user;
 
    public function __construct(User $user)
    {
-       $this->userModel = $user;
+       $this->user = $user;
    }
 
    public function getUserById($id)

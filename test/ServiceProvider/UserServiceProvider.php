@@ -5,7 +5,7 @@ class TestServiceProvider extends ServiceProvider
     public $bindings = [
         User::class => UserIm::class,
         Repository::class => UserRepository::class,
-
+        UserService::class=> UserServiceImp::class,
     ];
 
     /**
