@@ -1,5 +1,5 @@
 <?php
-class Web implements RenderInterface{
+class Web implements Transformer{
     protected $data;
     public function __construct($data)
     {

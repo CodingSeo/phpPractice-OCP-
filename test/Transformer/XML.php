@@ -1,6 +1,6 @@
 <?php
 
-class XML extends Decorator{
+class XML extends Transformer{
     public function render(){
         $output = $this->wapper->render();
         $doc = new \DOMDocument();

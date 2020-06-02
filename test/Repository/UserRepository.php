@@ -1,5 +1,5 @@
 <?php
-class UserRepository
+class UserRepository implements RespositoryInterface
 {
    protected $userModel;
 
