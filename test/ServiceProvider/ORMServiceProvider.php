@@ -3,7 +3,7 @@ class ORMServiceProvider extends ServiceProvider
 {
     //서비스 컨테이너에서 많은 서비스 객체들을
     public $bindings = [
-        testinterface::class => testimp::class,
+        Repository::class => UserRepository::class,
     ];
 
 

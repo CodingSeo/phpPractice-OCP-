@@ -4,7 +4,6 @@ class TestServiceProvider extends ServiceProvider
     // 서비스 컨테이너에서 많은 서비스 객체들을
     public $bindings = [
         User::class => UserIm::class,
-        Repository::class => UserRepository::class,
         UserService::class=> UserServiceImp::class,
     ];
 
